@@ -1,0 +1,12 @@
+@import url(styles/cabecalho.css);
+
+:root {
+
+    --fonte: 'Gabarito', 'cursive';
+    --cor-primaria: #fff;
+
+}
+
+body {
+    font-family: var(--fonte);
+}
