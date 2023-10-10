@@ -1,0 +1,18 @@
+.parceria {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 2rem;
+    margin: auto 25%;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+}
+
+.card__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}

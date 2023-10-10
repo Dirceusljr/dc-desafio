@@ -1,0 +1,31 @@
+.propaganda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: auto 15%;
+    margin-top: 50px;
+}
+
+.propaganda__imagem {
+    width: 400px;
+    height: 300px;
+}
+
+.propaganda__texto {
+    width: 30%;
+    text-align: left;
+}
+
+.propaganda__texto-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.inverso {
+    flex-direction: row-reverse;
+    background-color: var(--cor-secundaria);
+    margin: -25px 0 0 0;
+    padding: 75px 15%;
+
+}
