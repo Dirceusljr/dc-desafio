@@ -15,7 +15,7 @@
 
 .cabecalho__topo-logo {
     color: var(--cor-primaria);
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
     text-shadow: 1px 1px 2px black;
 }
@@ -51,7 +51,7 @@
     color: var(--cor-primaria);
     font-size: 0.7rem;
     margin-top: -0.5rem;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
     border-bottom: var(--cor-primaria) 1px solid;
     text-shadow: 1px 1px 2px black;
 }
@@ -77,30 +77,37 @@
     background-color: var(--cor-primaria);
 }
 
-.cabecalho__centro-label {
+.cabecalho__centro-container {
+    background: var(--cor-primaria);
+    width: 20%;
+    
+    border-radius: 24px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 30%;
+    justify-content: space-between;
+    height: 26px;
+}
+
+.cabecalho__centro-endereco{
+    position: relative;
+    left: 5px;
 }
 
 .cabecalho__centro-pesquisa {
-    background-color: var(--cor-primaria);
     border: none;
-    border-radius: 24px;
-    padding: 6px 6px;
-    width: 75%;
+    outline: none;
+    width: 80%;
 }
 
+
 .cabecalho__centro-pesquisa::placeholder {
-    background-image: url(../images/endereco.png);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    font-size: 0.8rem;
+    background: transparent;
+    border: none;
 }
 
 .cabecalho__centro-seta {
+    border: none;
+    background: none;
     position: relative;
-    right: 8%;
-    
 }
+

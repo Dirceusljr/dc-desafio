@@ -2,17 +2,32 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    padding-top: 3rem;
     gap: 2rem;
-    margin: auto 25%;
+    margin: 80px 25%;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     text-align: center;
+}
+
+.card a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--cor-link);
 }
 
 .card__titulo {
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+.card__link-seta {
+    font-size: 0.5rem;
 }

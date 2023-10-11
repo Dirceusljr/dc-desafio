@@ -2,9 +2,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
     margin: auto 15%;
-    margin-top: 50px;
+}
+
+.propaganda a{
+    text-decoration: none;
+    background: var(--cor-link);
+    color: var(--cor-primaria);
+    border-radius: 24px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: fit-content;
 }
 
 .propaganda__imagem {
@@ -15,10 +25,14 @@
 .propaganda__texto {
     width: 30%;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
 }
 
 .propaganda__texto-titulo {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 

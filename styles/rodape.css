@@ -1,8 +1,9 @@
 .rodape {
-    background-color: var(--cor-rodape);
+    background: var(--cor-rodape);
     display: flex;
     flex-direction: column;
     padding: 1rem 15%;
+    margin-bottom: 10px;
 }
 
 footer h4 {
@@ -22,7 +23,7 @@ footer a, p {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    margin-bottom: 15px;
+    margin: 30px 0;
 }
 
 .cidades,
@@ -46,7 +47,7 @@ footer a, p {
     justify-content: flex-start;
     gap: 45px;
     width: 50%+50px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .sobre__lista,
