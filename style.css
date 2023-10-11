@@ -4,17 +4,13 @@
 @import url(styles/rodape.css);
 
 :root {
-
     --fonte: 'Gabarito', 'cursive';
     --cor-primaria: #fff;
     --cor-secundaria: #fff0ed;
     --cor-rodape: #191919;
+    --rodape-fonte: #919191;
 }
 
 body {
     font-family: var(--fonte);
-}
-
-a {
-    text-decoration: none;
 }
