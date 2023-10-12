@@ -43,3 +43,7 @@
     padding: 75px 15%;
 
 }
+
+.propaganda a:hover {
+    transform: scale(1.1);
+}

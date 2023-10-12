@@ -31,3 +31,8 @@
 .card__link-seta {
     font-size: 0.5rem;
 }
+
+.card a:hover{
+    border-bottom: 1px var(--cor-link) solid;
+    transition: 0.7;
+}

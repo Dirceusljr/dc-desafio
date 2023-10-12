@@ -111,3 +111,19 @@
     position: relative;
 }
 
+.btn-criar:hover {
+    color: var(--cor-primaria);
+    background-color: black;
+    text-shadow: none;
+    transition: 0.7;
+}
+
+.btn-login:hover {
+    color: black;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 8px;
+    padding: 0.3rem;
+    background-color: var(--cor-primaria);
+    text-shadow: none;
+    transition: 0.7;
+}
